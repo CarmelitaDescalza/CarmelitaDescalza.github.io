@@ -1,4 +1,0 @@
-[05-May-2020 18:15:04 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/gracie93/public_html/carmelitadescalza.es/wp-includes/ID3/module.audio.ac3.php:18
-Stack trace:
-#0 {main}
-  thrown in /home/gracie93/public_html/carmelitadescalza.es/wp-includes/ID3/module.audio.ac3.php on line 18
