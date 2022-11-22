@@ -1,0 +1,24 @@
+				@font-face {
+					font-family: 'milho-cozido';
+					src: url('http://localhost/WP-descalza/wp-content/uploads/useanyfont/170610075318Milho-Cozido.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.milho-cozido{font-family: 'milho-cozido' !important;}
+
+						li{
+					font-family: 'milho-cozido' !important;
+				}
+						h1{
+					font-family: 'milho-cozido' !important;
+				}
+						h3{
+					font-family: 'milho-cozido' !important;
+				}
+						h2{
+					font-family: 'milho-cozido' !important;
+				}
+						h4, body.page .entry-title, .site-title, strong, b, .menu-main-container li a, .menu-main-container li span, #menu-main li a, #menu-main li span{
+					font-family: 'milho-cozido' !important;
+				}
+		

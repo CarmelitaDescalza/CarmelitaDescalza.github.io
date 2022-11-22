@@ -1,0 +1,965 @@
+{
+    "dup_type": "lite",
+    "created": "2022-09-27 08:36:18",
+    "version_dup": "1.5.0",
+    "version_wp": "6.0.2",
+    "version_db": "10.3.35",
+    "version_php": "7.3.33",
+    "version_os": "Linux",
+    "blogname": "Carmelita Descalza",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$4BzwCMqwC.BmVIXaavQ7He.LTz0A\/JXZa8W7hsMKubkiGhvwoklWm",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "ez1839_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "descalza.es",
+            "path": "\/",
+            "blogname": "Carmelita Descalza",
+            "blog_prefix": "ez1839_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "2",
+                    "user_login": "Carmela",
+                    "id": "2"
+                },
+                {
+                    "ID": "5",
+                    "user_login": "Carmencita",
+                    "id": "5"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/descalza.es",
+            "fullSiteUrl": "https:\/\/descalza.es",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/descalza.es\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "latin1",
+            "utf8"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB",
+            "MyISAM"
+        ],
+        "isTablesUpperCase": 1,
+        "isNameUpperCase": 0,
+        "name": "graciel2_descalza",
+        "tablesBaseCount": 59,
+        "tablesFinalCount": 59,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 28451,
+        "tablesSizeOnDisk": 11680163,
+        "tablesList": {
+            "ez1839_actionscheduler_actions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 147456
+            },
+            "ez1839_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "ez1839_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "ez1839_actionscheduler_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ez1839_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "ez1839_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "ez1839_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "ez1839_itsec_opaque_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "ez1839_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "ez1839_options": {
+                "inaccurateRows": 581,
+                "insertedRows": 581,
+                "size": 2296044
+            },
+            "ez1839_postmeta": {
+                "inaccurateRows": 5462,
+                "insertedRows": 5462,
+                "size": 727760
+            },
+            "ez1839_posts": {
+                "inaccurateRows": 318,
+                "insertedRows": 318,
+                "size": 492596
+            },
+            "ez1839_revslider_css": {
+                "inaccurateRows": 109,
+                "insertedRows": 109,
+                "size": 147456
+            },
+            "ez1839_revslider_css_bkp": {
+                "inaccurateRows": 109,
+                "insertedRows": 109,
+                "size": 131072
+            },
+            "ez1839_revslider_layer_animations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_revslider_layer_animations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_revslider_navigations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_revslider_navigations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_revslider_sliders": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 65536
+            },
+            "ez1839_revslider_sliders_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "ez1839_revslider_slides": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 32768
+            },
+            "ez1839_revslider_slides_bkp": {
+                "inaccurateRows": 7,
+                "insertedRows": 7,
+                "size": 65536
+            },
+            "ez1839_revslider_static_slides": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 65536
+            },
+            "ez1839_revslider_static_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ez1839_terms": {
+                "inaccurateRows": 54,
+                "insertedRows": 54,
+                "size": 15284
+            },
+            "ez1839_term_relationships": {
+                "inaccurateRows": 135,
+                "insertedRows": 135,
+                "size": 11027
+            },
+            "ez1839_term_taxonomy": {
+                "inaccurateRows": 54,
+                "insertedRows": 54,
+                "size": 8408
+            },
+            "ez1839_usermeta": {
+                "inaccurateRows": 82,
+                "insertedRows": 82,
+                "size": 20784
+            },
+            "ez1839_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 8420
+            },
+            "ez1839_wfBlockedIPLog": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_wfBlocks7": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 65536
+            },
+            "ez1839_wfConfig": {
+                "inaccurateRows": 276,
+                "insertedRows": 279,
+                "size": 1589248
+            },
+            "ez1839_wfCrawlers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_wfFileChanges": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_wfFileMods": {
+                "inaccurateRows": 9979,
+                "insertedRows": 10152,
+                "size": 2637824
+            },
+            "ez1839_wfHits": {
+                "inaccurateRows": 31,
+                "insertedRows": 31,
+                "size": 65536
+            },
+            "ez1839_wfHoover": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "ez1839_wfIssues": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 81920
+            },
+            "ez1839_wfKnownFileList": {
+                "inaccurateRows": 9599,
+                "insertedRows": 10152,
+                "size": 1589248
+            },
+            "ez1839_wfLiveTrafficHuman": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "ez1839_wfLocs": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "ez1839_wfLogins": {
+                "inaccurateRows": 387,
+                "insertedRows": 387,
+                "size": 131072
+            },
+            "ez1839_wfls_2fa_secrets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "ez1839_wfls_settings": {
+                "inaccurateRows": 19,
+                "insertedRows": 19,
+                "size": 16384
+            },
+            "ez1839_wfNotifications": {
+                "inaccurateRows": 116,
+                "insertedRows": 116,
+                "size": 49152
+            },
+            "ez1839_wfPendingIssues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "ez1839_wfReverseCache": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "ez1839_wfSNIPCache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "ez1839_wfStatus": {
+                "inaccurateRows": 947,
+                "insertedRows": 947,
+                "size": 229376
+            },
+            "ez1839_wfTrafficRates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_wpmailsmtp_debug_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_wpmailsmtp_tasks_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "ez1839_yoast_indexable": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 81920
+            },
+            "ez1839_yoast_indexable_hierarchy": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "ez1839_yoast_migrations": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 32768
+            },
+            "ez1839_yoast_primary_term": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ez1839_yoast_seo_links": {
+                "inaccurateRows": 38,
+                "insertedRows": 38,
+                "size": 32768
+            },
+            "ez1839_yoast_seo_meta": {
+                "inaccurateRows": 91,
+                "insertedRows": 91,
+                "size": 16384
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MariaDB",
+        "version": "10.3.35",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20220927_carmelitadescalza",
+        "packageHash": "bf9739f-27083618",
+        "secondaryHash": "7dd4c1e-27083618"
+    },
+    "fileInfo": {
+        "dirCount": 1947,
+        "fileCount": 12897,
+        "size": 353037157
+    },
+    "wpInfo": {
+        "version": "6.0.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home2\/graciel2\/public_html\/descalza.es",
+        "targetPaths": [
+            "\/home2\/graciel2\/public_html\/descalza.es"
+        ],
+        "adminUsers": [
+            {
+                "ID": "2",
+                "user_login": "Carmela",
+                "id": "2"
+            },
+            {
+                "ID": "5",
+                "user_login": "Carmencita",
+                "id": "5"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "$A2Xg!5ruWU#PSIXJ4^F62|EI,Q|4J=jz9\/)MhdRIV-i8`s5Vk)Qn- ZleL@GJa]",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "POMUMe@zd{W|$@weh!WFyzQ3ps{ufEBf|xWuY>C24BZ1r:((JFE{i&&<}o@d?ah(",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "b.$L*{pZTg]2!AMjPAdU1q,3v1h O<(0Aw!CCoVQQR{$_]x!%?L7$t#I~gtuISRu",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "hRa6B]W<0oomq@S^<g*yvV@!9xEsU<SF6*7ltxWFC=-6!CT3<o~KZzhKo&$tTS6m",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "gv3@^WSanBlerS.njVmq?sz!$z`_b,q5MXm09Wi{SQi:@J%`90T[}$kvWj1lW?*S",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "+W; J}w63wBCiO[i8Nuof#>B]MO2ix_I;Q=P?Q? 1npE +`kLx7Qi.dwhp)P`nm;",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "zElKY&24=aM0{L?Bl<PFyqh:;?dg4j0U3=j*<8L%8#OXxFUS[BdtgGhE,Srh%sr`",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": ",@gC]^M|pm8d)*CmZD2z[B|ADSsco{;zCJ#kckOtiw#u%[=kR6?jyNui#H?^7q&x",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/descalza.es\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/descalza.es\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPLANG": {
+                    "value": "es_ES",
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/themes\/minimal-blocks",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/themes\/minimal-blocks",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/descalza.es\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/descalza.es",
+                "homeUrl": "https:\/\/descalza.es",
+                "contentUrl": "https:\/\/descalza.es\/wp-content",
+                "uploadBaseUrl": "https:\/\/descalza.es\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/descalza.es\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/descalza.es\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/descalza.es\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home2\/graciel2\/public_html\/descalza.es",
+                    "abs": "\/home2\/graciel2\/public_html\/descalza.es",
+                    "wpconfig": "\/home2\/graciel2\/public_html\/descalza.es",
+                    "wpcontent": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content",
+                    "uploads": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/uploads",
+                    "plugins": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/plugins",
+                    "muplugins": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/mu-plugins",
+                    "themes": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home2\/graciel2\/public_html\/descalza.es",
+                    "abs": "\/home2\/graciel2\/public_html\/descalza.es",
+                    "wpconfig": "\/home2\/graciel2\/public_html\/descalza.es",
+                    "wpcontent": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content",
+                    "uploads": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/uploads",
+                    "plugins": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/plugins",
+                    "muplugins": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/mu-plugins",
+                    "themes": "\/home2\/graciel2\/public_html\/descalza.es\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-Spam",
+                "version": "5.0",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. It keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-Spam",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "asesor-cookies-para-la-ley-en-espana\/plugin.php": {
+                "slug": "asesor-cookies-para-la-ley-en-espana\/plugin.php",
+                "name": "Asesor de Cookies RGPD",
+                "version": "0.32",
+                "pluginURI": "https:\/\/webartesanal.com",
+                "author": "Carlos Doral P\u00e9rez",
+                "authorURI": "https:\/\/webartesanal.com",
+                "description": "Este plugin avisa a los nuevos visitantes de su web sobre la utilizaci\u00f3n de cookies en su p\u00e1gina y le proporciona los textos iniciales para que pueda crear una pol\u00edtica de cookies correcta y facilitarle la adaptaci\u00f3n de su web a la RGPD",
+                "title": "Asesor de Cookies RGPD",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.6.3",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.0",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hello.php": {
+                "slug": "hello.php",
+                "name": "Hello Dolly",
+                "version": "1.7.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/hello-dolly\/",
+                "author": "Matt Mullenweg",
+                "authorURI": "http:\/\/ma.tt\/",
+                "description": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly<\/cite> in the upper right of your admin screen on every page.",
+                "title": "Hello Dolly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "sg-cachepress\/sg-cachepress.php": {
+                "slug": "sg-cachepress\/sg-cachepress.php",
+                "name": "SiteGround Optimizer",
+                "version": "7.2.1",
+                "pluginURI": "https:\/\/siteground.com",
+                "author": "SiteGround",
+                "authorURI": "https:\/\/www.siteground.com",
+                "description": "This plugin will link your WordPress application with all the performance optimizations provided by SiteGround",
+                "title": "SiteGround Optimizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "revslider\/revslider.php": {
+                "slug": "revslider\/revslider.php",
+                "name": "Slider Revolution",
+                "version": "6.5.31",
+                "pluginURI": "https:\/\/www.sliderrevolution.com\/",
+                "author": "ThemePunch",
+                "authorURI": "https:\/\/themepunch.com\/",
+                "description": "Slider Revolution - More than just a WordPress Slider",
+                "title": "Slider Revolution",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "the-events-calendar\/the-events-calendar.php": {
+                "slug": "the-events-calendar\/the-events-calendar.php",
+                "name": "The Events Calendar",
+                "version": "6.0.1",
+                "pluginURI": "",
+                "author": "The Events Calendar",
+                "authorURI": "https:\/\/evnt.is\/1x",
+                "description": "The Events Calendar is a carefully crafted, extensible plugin that lets you easily share your events. Beautiful. Solid. Awesome.",
+                "title": "The Events Calendar",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "use-any-font\/use-any-font.php": {
+                "slug": "use-any-font\/use-any-font.php",
+                "name": "Use Any Font",
+                "version": "6.2.95",
+                "pluginURI": "https:\/\/dineshkarki.com.np\/use-any-font",
+                "author": "Dnesscarkey",
+                "authorURI": "https:\/\/dineshkarki.com.np\/use-any-font",
+                "description": "Embed any font in your website",
+                "title": "Use Any Font",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-mail-smtp\/wp_mail_smtp.php": {
+                "slug": "wp-mail-smtp\/wp_mail_smtp.php",
+                "name": "WP Mail SMTP",
+                "version": "3.5.2",
+                "pluginURI": "https:\/\/wpmailsmtp.com\/",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com\/",
+                "description": "Reconfigures the <code>wp_mail()<\/code> function to use Gmail\/Mailgun\/SendGrid\/SMTP instead of the default <code>mail()<\/code> and creates an options page to manage the settings.",
+                "title": "WP Mail SMTP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "minimal-blocks": {
+                "slug": "minimal-blocks",
+                "themeName": "Minimal Blocks",
+                "version": "1.1.5",
+                "themeURI": "https:\/\/thememattic.com\/theme\/minimal-blocks",
+                "parentTheme": false,
+                "template": "minimal-blocks",
+                "stylesheet": "minimal-blocks",
+                "description": "Your Website deserves an update &amp; this stylish, elegant and powerful multifunctional WordPress theme is just what you need. Minimal Blocks unique post layout, as well as full-width Featured Posts slider, will help you stand out in the crowd &amp; show just how seriously you take this awesome website of yours! Use the One-Click Demo Import to get your site looking like the Minimal Blocks demo site in seconds. You'll catch yourself saying, \"That was easy.\"",
+                "author": "Thememattic",
+                "authorURI": "https:\/\/thememattic.com",
+                "tags": [
+                    "blog",
+                    "e-commerce",
+                    "news",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "rtl-language-support",
+                    "right-sidebar",
+                    "grid-layout",
+                    "post-formats",
+                    "custom-background",
+                    "custom-header",
+                    "custom-logo",
+                    "custom-menu",
+                    "footer-widgets",
+                    "featured-images",
+                    "full-width-template",
+                    "translation-ready",
+                    "theme-options",
+                    "threaded-comments"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentynineteen": {
+                "slug": "twentynineteen",
+                "themeName": "Twenty Nineteen",
+                "version": "2.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentynineteen\/",
+                "parentTheme": false,
+                "template": "twentynineteen",
+                "stylesheet": "twentynineteen",
+                "description": "Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you\u2019re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "flexible-header",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "block-patterns"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwenty": {
+                "slug": "twentytwenty",
+                "themeName": "Twenty Twenty",
+                "version": "2.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwenty\/",
+                "parentTheme": false,
+                "template": "twentytwenty",
+                "stylesheet": "twentytwenty",
+                "description": "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "blog",
+                    "one-column",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "full-width-template",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "block-patterns",
+                    "block-styles",
+                    "wide-blocks",
+                    "accessibility-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Carmelita Descalza"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20220927_carmelitadescalza_bf9739f843d978136627_20220927083618_installer-backup.php",
+    "package_name": "20220927_carmelitadescalza_bf9739f843d978136627_20220927083618_archive.zip",
+    "package_hash": "bf9739f-27083618",
+    "package_notes": ""
+}

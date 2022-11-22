@@ -1,0 +1,1 @@
+[18-Jul-2021 01:21:50 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/descalza.es/public_html/wp-includes/functions.php on line 8
