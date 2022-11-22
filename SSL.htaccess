@@ -1,0 +1,10 @@
+
+#Línea de código para redireccionar a https 
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(.*)carmelanavarroti.epizy.com$
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https$
+RewriteRule ^(.*) https://www.carmelanavarroti.epizy.com/$1 [R=301,L]
+
+</IfModule>
