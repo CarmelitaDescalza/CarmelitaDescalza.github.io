@@ -2569,18 +2569,19 @@ background-position: top left, bottom center;
 
     #enlaces {
         position: absolute;
-        top: 200px;
+        max-height: 240px;
+        top: 340px;
     }
     
     #unicornio {
-        height: 560px;
+        height: 680px;
      
     }
 
     #unicornio img {
-        margin-top: 15%;
-        margin-left: 35%;
-        width: 550px;
+        margin-top: 6%;
+        margin-left: 0%;
+        width: 480px;
         text-align: right;
         
     }
