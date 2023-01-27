@@ -2451,8 +2451,121 @@ body.is-touch .main {
     }
 
 }
+/*//////////////////////////////*/
 
 /* Intro */
+
+
+/*/////menuHamburguesaCss*/
+
+.respmenu a {
+    /*    color: inherit;*/
+    color: white;
+    text-decoration: none;
+    /*    tab-size: 2rem;*/
+    font-size: 2rem;
+    display: block;
+    padding: 10px 20px;
+    /*    border-bottom: 2px solid var(--fondoNavB);*/
+
+    background-color: rgba(145, 145, 145, 0.5);
+    /*    background: var(--fondoNavB);*/
+    /*    font-family: 'News Cycle', sans-serif;*/
+    font-family: 'Milho Cozido', sans-serif;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.respmenu a:hover {
+    color: deeppink;
+    font-weight: 600;
+
+
+}
+
+
+
+.respmenu input[type="checkbox"],
+.respmenu .fa-bars,
+.respmenu .fa-times {
+
+    position: absolute;
+    box-sizing: border-box;
+    /*    margin: 0;*/
+    margin-right: 90px;
+    padding: 0;
+    right: 10px;
+    top: 8px;
+    width: 40px;
+    height: 25px;
+}
+
+.respmenu .fa-bars,
+.respmenu .fa-times {
+    font-size: 40px;
+    pointer-events: none;
+}
+
+
+
+.respmenu input[type="checkbox"] {
+    opacity: 0;
+}
+
+.respmenu {
+    opacity: 0;
+    color: white;
+    width: 100%;
+    position: relative;
+    background-image: url(trazoBarra1.png);
+    /*    background:#0a080d;*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*    background-color: rgba(145, 145, 145, 0.5);*/
+    /*    background: var(--fondoNavB);*/
+    /*    background-color: aquamarine;*/
+    min-height: 60px;
+    z-index: 2;
+}
+
+.respmenu nav {
+    display: none;
+    margin-left: 60%;
+}
+
+.respmenu nav li {
+    list-style: none;
+}
+
+.respmenu input:checked ~ nav {
+    display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+    display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+}
+
+#menuOff {
+    background-color: rgba(145, 145, 145, 0.5);
+    /*    background-color: var(--fondoNavB);*/
+
+}
+
+#menuOn {
+    font-size: 2rem;
+
+}
+
+
+/*/////menuHamburguesaCss*/
+
+
 /*Así era la primera línea del fondo
 
 background: url("images/overlay.png"), url("../../images/HomeIndexPorfolioBlancoCara.png");
@@ -2463,14 +2576,18 @@ background-position: top left, bottom center;
 
 /*Video o imagen de fondo en pantalla principal*/
 
+
+
 #intro {
-    /*
-    background: url("../../images/VideoTech.mp4");
+    
+/*
+    background: url("../../images/HomeIndexPorfolioBlancoCara.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
     background-repeat: no-repeat;
 */
+
 
 }
 
@@ -2539,6 +2656,96 @@ background-position: top left, bottom center;
 }
 
 @media screen and (max-width: 550px) {
+    
+    /*/////menuHamburguesaCss*/
+
+    .respmenu a {
+        /*    color: inherit;*/
+        color: white;
+        text-decoration: none;
+        /*    tab-size: 2rem;*/
+        font-size: 1.5rem;
+        display: block;
+        padding: 10px 10px;
+        /*    border-bottom: 2px solid var(--fondoNavB);*/
+
+        background-color: rgba(145, 145, 145, 0.95);
+        /*    background: var(--fondoNavB);*/
+        /*    font-family: 'News Cycle', sans-serif;*/
+        font-family: 'Milho Cozido', sans-serif;
+        font-weight: 500;
+        text-align: right;
+        margin-right: 0px;
+    }
+
+    .respmenu a:hover {
+        color: deeppink;
+        font-weight: 600;
+
+    }
+
+    .respmenu input[type="checkbox"],
+    .respmenu .fa-bars,
+    .respmenu .fa-times {
+
+        position: absolute;
+        box-sizing: border-box;
+        /*    margin: 0;*/
+        margin-right: 10px;
+        padding: 0;
+        right: 0px;
+        top: 8px;
+        width: 40px;
+        height: 25px;
+        color: aqua;
+
+    }
+
+    .respmenu .fa-bars,
+    .respmenu .fa-times {
+        font-size: 40px;
+        pointer-events: none;
+    }
+
+
+    .respmenu input[type="checkbox"] {
+        opacity: 0;
+    }
+
+    .respmenu {
+        opacity: 1;
+        color: white;
+        width: 100%;
+        position: fixed;
+        background-image: rgba(145, 145, 145, 0.95);
+        /*    background:#0a080d;*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        /*    background-color: rgba(145, 145, 145, 0.5);*/
+        /*    background: var(--fondoNavB);*/
+        /*    background-color: aquamarine;*/
+        /*    min-height: 60px;*/
+        z-index: 2;
+    }
+
+    .respmenu nav {
+        display: none;
+        margin-left: 50%;
+    }
+
+
+    #menuOn {
+        font-size: 1.6rem;
+        
+    }
+
+    #menuOff {
+        background-color: rgba(145, 145, 145, 0.95);
+    }
+
+    /*////menuHamburguesaCss*/
+    
     #intro {
         /*
         background: url("../../images/HomeIndexPorfolioBlancoCaraCodeLoveCodingPL.png");
@@ -2547,17 +2754,21 @@ background-position: top left, bottom center;
         background-repeat: no-repeat;
 */
     }
+    
+    #contact{
+        display: none;
+    }
 
     /*    Video del inicio*/
 
     #myVideo {
-        display: none;
+/*        display: none;*/
         /*    position: absolute;*/
         /*    right: 0;*/
-        left: 23%;
+        left:-5%;
         /*    bottom: 0;*/
-        top: -7%;
-        min-width: 60%;
+        top: -10%;
+        min-width: 110%;
         
         /*    min-height: 100%;*/
         z-index: -1;
@@ -2570,18 +2781,18 @@ background-position: top left, bottom center;
     #enlaces {
         position: absolute;
         max-height: 240px;
-        top: 340px;
+        top: 380px;
     }
     
     #unicornio {
-        height: 680px;
+        height: 720px;
      
     }
 
     #unicornio img {
-        margin-top: 6%;
-        margin-left: 0%;
-        width: 480px;
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 380px;
         text-align: right;
         
     }
