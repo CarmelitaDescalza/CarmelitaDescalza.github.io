@@ -689,12 +689,13 @@ h6 a {
 }
 
 #work h6 a:link {
-    color:black;
-    
+    color: black;
+
 }
+
 #work h6 a:hover {
-    color:deeppink;
-    
+    color: deeppink;
+
 }
 
 a:hover {
@@ -2460,22 +2461,138 @@ background-position: top left, bottom center;
 */
 
 
+/*Video o imagen de fondo en pantalla principal*/
+
 #intro {
-    background: url("../../images/HomeIndexPorfolioBlancoCaraCodeLoveCodingPL.png");
+    /*
+    background: url("../../images/VideoTech.mp4");
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
     background-repeat: no-repeat;
+*/
+
 }
 
-@media screen and (max-width: 889px) {
+#myVideo {
+    position: absolute;
+    /*    right: 0;*/
+    left: 23%;
+    width: 80%;
+    /*    bottom: 0;*/
+    top:-32%;
+/*    min-width: 80%;*/
+/*    max-width:3200px;*/
+    /*    min-height: 100%;*/
+    z-index: -1;
+}
+
+#letras{
+    margin-top: 163px;
+}
+
+@media screen and (max-width: 1130px) {
     #intro {
+        /*
         background: url("../../images/HomeIndexPorfolioBlancoCaraCodeLoveCodingPL.png");
         background-size: 100%;
         background-position: top center;
         background-repeat: no-repeat;
+*/
+    }
+
+    /*    Video del inicio*/
+
+    #myVideo {
+        /*    position: absolute;*/
+        /*    right: 0;*/
+        left: 23%;
+        /*    bottom: 0;*/
+        top: -7%;
+        min-width: 60%;
+        
+        /*    min-height: 100%;*/
+        z-index: -1;
+    }
+
+    #letras {
+        display: none;
+    }
+
+    #enlaces {
+        position: absolute;
+        top: 200px;
+    }
+    
+    #unicornio {
+        height: 560px;
+     
+    }
+
+    #unicornio img {
+        margin-top: 15%;
+        margin-left: 35%;
+        width: 550px;
+        text-align: right;
+        
     }
 }
+
+@media screen and (max-width: 550px) {
+    #intro {
+        /*
+        background: url("../../images/HomeIndexPorfolioBlancoCaraCodeLoveCodingPL.png");
+        background-size: 100%;
+        background-position: top center;
+        background-repeat: no-repeat;
+*/
+    }
+
+    /*    Video del inicio*/
+
+    #myVideo {
+        display: none;
+        /*    position: absolute;*/
+        /*    right: 0;*/
+        left: 23%;
+        /*    bottom: 0;*/
+        top: -7%;
+        min-width: 60%;
+        
+        /*    min-height: 100%;*/
+        z-index: -1;
+    }
+
+    #letras {
+        display: none;
+    }
+
+    #enlaces {
+        position: absolute;
+        top: 200px;
+    }
+    
+    #unicornio {
+        height: 560px;
+     
+    }
+
+    #unicornio img {
+        margin-top: 15%;
+        margin-left: 35%;
+        width: 550px;
+        text-align: right;
+        
+    }
+}
+
+
+/*Ajuste del estilo de un enlace*/
+#enlaceWeb {
+    color: black;
+
+}
+
 
 /* One */
 
