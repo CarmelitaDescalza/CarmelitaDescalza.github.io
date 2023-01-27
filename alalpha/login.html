@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ALALPHA_Login</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo/ComplejoGrisClaroConC%C3%ADiculo.png">
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
+
+        body {
+            color: gray;
+            background-color: #90F9F1;
+            font-family: "News Cycle", sans-serif;
+            margin: 10%;
+        }
+
+        h1 {
+            font-family: "GFS Neohellenic", sans-serif;
+
+        }
+
+        h2 {
+            font-family: "News Cycle", sans-serif;
+
+        }
+
+        nav {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        nav ul a {
+            display: block;
+        }
+
+        nav ul li {
+            float: left;
+            padding: 5px 20px;
+            background: rgba(238, 249, 248, 0.5);
+        }
+
+        nav ul ul {
+            display: none;
+            margin: 10px 0 10px 0;
+        }
+
+        nav ul ul li {
+            float: none;
+            text-align: right;
+            background: rgba(238, 249, 248, 0.1);
+            padding: 5px 0 5px 0;
+        }
+
+
+
+        nav ul li:hover>ul {
+            display: block;
+
+        }
+
+        nav ul ul li a:hover {
+            color: #02FEE8;
+
+        }
+
+
+        a {
+            text-decoration: none;
+            color: gray;
+
+        }
+
+        a:hover {
+            color: #FC009C;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .home {
+            background-color: rgba(238, 249, 248, 0.5);
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            text-align: center;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+
+        }
+
+        .home:hover {
+            background-color: white;
+            transform: translateX(0.5px) translateY(0.5px);
+
+        }
+
+        .home:active {
+            background-color: rgba(238, 249, 248, 0.0);
+            transform: translateX(20px) translateY(20px) scale(1.5);
+
+        }
+
+        .home img {
+            margin: auto;
+            transform: translate(0%, 90%);
+            width: 100%;
+            filter: grayscale();
+        }
+
+        .formularioFuera {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .formularioDentro {
+            width: 40%;
+            margin: auto;
+            text-align: left;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!--
+       <div>
+          <img src="images/simple.png" alt=""> 
+       </div>
+        
+        <h1>ALALPHA</h1>
+
+        <h2>PROYECTOS DIGITALES Y ARTÍSTICOS</h2>
+        <h3>
+            Tecnología en beneficio del ser humano.
+        </h3>
+        <div>
+            <p>
+                Diseño y desarrollo, arte y ciencia, naturaleza y tecnologia.
+            </p>
+        </div>
+-->
+        <div class="home" title="Home">
+            <a href="index.html">
+                <img src="images/simple.png" alt="Logo.Home">
+            </a>
+
+
+        </div>
+    </header>
+
+    <article>
+
+        <!--Hacemos dos bloques div para contener el formulario-->
+        <div class="formularioFuera">
+
+            <div class="formularioDentro">
+                <h2 style="color:#FC009C">Cuentanos</h2>
+                <!--Formulario -->
+                <form action="http://35.180.111.146/mi-mail.php" method="post">
+                    <!--Creamos un formulario method="post";tenemos un archivo php en el servidor; y dos imput hidden:
+                  
+                   name="destinatario" value="armatedearte@gmail.com"
+                   name="redireccion" value="http:// duestro dominio -->
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td>Nombre</td>
+                            <td><input type="text" name="nombre" placeholder="" maxlength="50" required></td>
+                        </tr>
+                        <!--                el placeholder es lo que aparece dentro del input como sugerencia, value sería un valor preestablecido-->
+                        <tr>
+                            <td></td>
+                            <td>Apellido</td>
+                            <td><input type="text" name="apellido" placeholder=""></td>
+                        </tr>
+                        <!---->
+
+                        <!--                -->
+                        <tr>
+                            <td></td>
+                            <td>Email</td>
+                            <td><input type="email" name="email" autocomplete="on"></td>
+                        </tr>
+
+                        <!-- Lo normal es que las fechas vayan en formato ISO aaaa-mm-dd, podemos darle rango max y min tambien-->
+                        <tr>
+                            <td></td>
+                            <td>Sugerencias</td>
+                            <td><textarea name="sugerencias" id="" cols="40" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Fecha de hoy</td>
+                            <td><input type="date" name="fecha"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="submit" value="ENVIAR"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="hidden" name="destinatario" value="armatedearte@gmail.com"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="hidden" name="redireccion" value="http://35.180.111.146"></td>
+                        </tr>
+                    </table>
+                    <!--Atributo autofocus del imput se usa para deplegar el teclado al clicar;
+       El autocomplete nos recuerda lo que escribimos en otras ocasiones ;
+       EL required son los campos obligatorios a rellenar;
+       Si se quiere ocultar un campo se pone: input type= "hidden"-->
+                </form>
+
+            </div>
+
+
+        </div>
+    </article>
+
+
+    <!--
+    <nav>
+        <ul>
+            <li><a href="">SOFTWARES INTERACTIVOS</a>
+                <ul>
+                    <li><a href="">APPS</a></li>
+                    <li><a href="">WEBS</a></li>
+                    <li><a href="">OTROS</a></li>
+                </ul>
+            </li>
+            <li><a href="">EXPERIENCIAS INMERSIVAS</a>
+                <ul>
+                    <li><a href="">DIGITALES</a></li>
+                    <li><a href="">ARTÍSTICAS</a></li>
+                    <li><a href="">MIXTAS</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+-->
+
+    <!-- este botón era Login abajo derecha en index y lo hemos transformado en home arriba izquierda-->
+    <!--
+    <div class="home" title="Home">
+        <a href="">
+            <img src="images/simple.png" alt="Logo.Home">
+        </a>
+
+
+    </div>
+-->
+
+    <div style="text-align: right;  color:#FC009C"><br><br><br> to be continued ...</div>
+    <footer>
+        armatedearte@gmail.com
+    </footer>
+
+
+
+</body>
+
+</html>
