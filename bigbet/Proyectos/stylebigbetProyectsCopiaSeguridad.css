@@ -1,0 +1,1197 @@
+/*resetcss*/
+
+/*
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ HTML5 display-role reset for older browsers 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*resetcss*/
+
+/*fuentes*/
+
+/* font-family:  'News Cycle', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Gamja+Flower&family=Homemade+Apple&family=News+Cycle&family=Over+the+Rainbow&family=Patrick+Hand+SC&display=swap');
+
+@font-face {
+    src: url("Milho_Cozido_38.ttf"; );
+    font-family: "Milho Cozido";
+}
+
+/*fuentes*/
+
+/*general style*/
+
+html {
+    /*    color*/
+    --principal: aqua;
+    --secundario: deeppink;
+    --fondoNavA: #919191;
+    --fondoNavB: #D3D4D4;
+    /*     tipografia*/
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    /*    background-color: white;*/
+}
+
+/*menuHamburguesaCss*/
+
+.respmenu a {
+    color: inherit;
+    text-decoration: none;
+    tab-size: 3rem;
+    font-size: 50px;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--fondoNavB);
+    background: var(--fondoNavB);
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.respmenu a:hover {
+    color: deeppink;
+    font-weight: 600;
+
+
+}
+
+.respmenu input[type="checkbox"],
+.respmenu .fa-bars,
+.respmenu .fa-times {
+
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.respmenu .fa-bars,
+.respmenu .fa-times {
+    font-size: 40px;
+    pointer-events: none;
+}
+
+.respmenu input[type="checkbox"] {
+    opacity: 0;
+}
+
+.respmenu {
+    color: white;
+    position: relative;
+    background: var(--fondoNavB);
+    min-height: 60px;
+    z-index: 2;
+}
+
+.respmenu nav {
+    display: none;
+    margin-left: 60%;
+}
+
+.respmenu nav li {
+    list-style: none;
+}
+
+.respmenu input:checked ~ nav {
+    display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+    display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+}
+
+#menuOff {
+    background-color: var(--fondoNavB);
+}
+
+#menuOn {
+    font-size: 2rem;
+
+}
+
+
+/*menuHamburguesaCss*/
+
+/*menuAtom*/
+
+.menuAtomGeneral {
+    font-family: "News Cycle", sans-serif;
+    text-align: center;
+    width: 600px;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.containerAtom {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
+    text-align: center;
+}
+
+#menuAtom {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    left: 470px;
+    top: 300px;
+    margin: 0 0 0 0;
+    /*    margin: -75px 0 0 -75px;*/
+    list-style: none;
+    font-size: 200%;
+}
+
+.menuAtom-button {
+    opacity: 0;
+    z-index: -1;
+}
+
+.menuAtom-button {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    background-image: url(dudaGris.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#menuAtom:not(:target) > a:first-of-type,
+#menuAtom:target > a:last-of-type {
+    opacity: 1;
+    z-index: 1;
+}
+
+#menuAtom:not(:target) > .icon-plus:before,
+#menuAtom:target > .icon-minus:before {
+    opacity: 1;
+}
+
+.menuAtom-item {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 25%;
+    line-height: 5px;
+    top: 40%;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    background-color: #424242;
+    transform: translate(0px, 0px);
+    transition: transform 500ms;
+    z-index: -2;
+    transition: .5s;
+}
+
+.menuAtom-item a {
+    /*    color: #fff;*/
+    color: aqua;
+    position: relative;
+    /*    top: 30%;*/
+    left: 0;
+    text-decoration: none;
+}
+
+#menuAtom:target > .menuAtom-item:nth-child(6) {
+
+    transform: rotate(100deg) translateY(-170px) rotate(-80deg);
+    transition-delay: 0.6s;
+}
+
+#menuAtom:target > .menuAtom-item:nth-child(5) {
+    transform: rotate(20deg) translateY(-170px) rotate(-20deg);
+    transition-delay: 0.5s;
+}
+
+#menuAtom:target > .menuAtom-item:nth-child(3) {
+    transform: rotate(-20deg) translateY(-150px) rotate(20deg);
+
+    transition-delay: 0.4s;
+}
+
+#menuAtom:target > .menuAtom-item:nth-child(4) {
+    transform: rotate(-65deg) translateY(-135px) rotate(60deg);
+    transition-delay: 0.3s;
+}
+
+#menuAtom:target > .menuAtom-item:nth-child(7) {
+    transform: rotate(-140deg) translateY(-125px) rotate(140deg);
+    transition-delay: 0.1s;
+}
+
+#menuAtom:target > .menuAtom-item:nth-child(8) {
+    transform: rotate(-180deg) translateY(-225px) rotate(140deg);
+    transition-delay: 0s;
+}
+
+.contentPlus {
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 0;
+    /*    margin: -10px 0 0 -30px;*/
+    top: 200px;
+    left: 550px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.enlacesTexto a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.enlacesTextoCarta:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    color: white;
+    opacity: 0.7;
+}
+
+.enlacesTextoCurriculum:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    opacity: 0.7;
+
+}
+
+.enlacesTextoProyectos:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.enlacesTextoCarta {
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 0;
+    /*    margin: -10px 0 0 -30px;*/
+    top: 130px;
+    left: 300px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px;
+    color: white;
+}
+
+.enlacesTextoCurriculum {
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 0;
+    /*    margin: -10px 0 0 -30px;*/
+    top: 240px;
+    left: 170px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px;
+    color: white;
+}
+
+.enlacesTextoProyectos {
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 0;
+    /*    margin: -10px 0 0 -30px;*/
+    top: 380px;
+    left: 220px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px;
+    color: white;
+}
+
+/*menuAtom*/
+
+/*general style*/
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 70px;
+    left: 3%;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 3;
+
+}
+
+.logo:hover {
+    background-color: rgba(205, 205, 205, 0.6);
+}
+
+.logo img {
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+/*contenido index*/
+.contenedorPral {
+    /*    background-color: white;*/
+    width: 100%;
+    align-content: center;
+    overflow: auto;
+    margin: 20px auto;
+
+}
+
+.contenedorCentra {
+    width: 95%;
+    /*    background-color: white;*/
+    margin: auto;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    overflow: auto;
+
+}
+
+#columnaIzq {
+    width: 600px;
+    height: 1000px;
+    /*    background-color: white;*/
+    margin: 20px 0 0 20px;
+    float: left;
+    overflow: hidden;
+}
+
+#columnaDer {
+    width: 600px;
+    height: 1000px;
+    /*    background-color: white;*/
+    margin: 20px 0 0 20px;
+    float: left;
+    overflow: auto;
+}
+
+.navAtomico {
+    width: 100%;
+    height: 45%;
+    margin: auto;
+}
+
+.navAtomCenter {
+    width: 600px;
+    height: 45%;
+    margin: auto;
+}
+
+.ilustracion {
+    width: 90%;
+    height: 45%;
+    /*    background-color: white;*/
+    margin: auto;
+    background-image: url(autoretratoGris.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.textDuda {
+    width: 100%;
+    height: 40%;
+    font-family: 'Milho Cozido', sans-serif;
+    margin: 20px auto;
+    font-size: 2rem;
+
+}
+
+.iconos {
+    width: 80%;
+    height: 50%;
+
+    /*    background-image: url(iconos.png);*/
+
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*contenido paginas*/
+.paginasMarco {
+    margin: 40px auto;
+    width: 950px;
+    /*    background-color: aqua;*/
+
+}
+
+/*curriculum*/
+
+.curriculumMarco {
+
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.curriculumMarco iframe {
+    width: 70%;
+    height: 100%;
+}
+
+.tituloCurriculum {
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.tituloCurriculum a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.tituloCurriculum a:hover {
+    color: aquamarine;
+    font-weight: 600;
+
+}
+
+/*carta*/
+
+.tituloCarta {
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.tituloCarta a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+    margin: 10% 30%;
+}
+
+.tituloCarta a:hover {
+    color: aquamarine;
+    font-weight: 600;
+
+}
+
+.iconoCurriculum {
+    width: 80%;
+    height: 300px;
+    background-image: url(curriculumGrisColor.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+
+}
+
+.iconoCarta {
+    width: 80%;
+    height: 300px;
+    background-image: url(cartaGrisColor.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+}
+
+/*proyectos*/
+
+.tituloProyectos {
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.tituloProyectos a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+    /*    margin: 10% 30%;*/
+}
+
+.tituloProyectos a:hover {
+    color: aquamarine;
+    font-weight: 600;
+
+}
+
+.iconoProyect {
+    width: 80%;
+    height: 300px;
+    background-image: url(proyectosColor.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+}
+
+.proyectosEnlace {
+    margin: 60px 60%;
+}
+
+
+.proyectosEnlace a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+    margin: 60px 40%;
+
+}
+
+.proyectosEnlace a:hover {
+    color: deeppink;
+    font-weight: 600;
+
+}
+
+/*cuadro proyectos*/
+.cuadroProyectos {
+    width: 950px;
+    /*    background-color: yellow;*/
+    margin: auto;
+    padding: 15px 20px;
+}
+
+
+table {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 5%;
+    margin: 20px auto;
+    padding-bottom: 40px;
+    color: gray;
+    font-family: 'News Cycle',
+        sans-serif;
+    font-size: 2.3rem;
+    text-decoration: none;
+}
+
+table a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+table a:hover {
+    text-decoration: none;
+    color: gray;
+    background-color: aquamarine;
+    /*    opacity: 0.7;*/
+    padding: 20px;
+    border-radius: 50%;
+}
+
+td {
+    /*
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+*/
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40%;
+    /*    background: rgba(1, 1, 1, 0.3);*/
+}
+
+th {
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+    padding: 10px;
+    /*    border-radius: 40%;*/
+}
+
+/*paginas de proyectos*/
+.tituloVueltaProyectos {
+    text-align: right;
+    margin: auto;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tituloVueltaProyectos a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+    /*    margin: 10% 30%;*/
+}
+
+.tituloVueltaProyectos a:hover {
+    color: orange;
+    font-weight: 600;
+
+}
+
+.tituloPortfolioPage {
+    text-align: left;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tituloPortfolioPage a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+    /*    margin: 10% 30%;*/
+}
+
+.tituloPortfolioPage a:hover {
+    color: deeppink;
+    font-weight: 600;
+
+}
+
+.tituloPortfolioGitHubPage {
+    text-align: left;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tituloPortfolioGitHubPage a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: var(--fondoNavA);
+    text-align: center;
+    text-decoration: none;
+    /*    margin: 10% 30%;*/
+}
+
+.tituloPortfolioGitHubPage a:hover {
+    color: deeppink;
+    font-weight: 600;
+
+}
+
+
+.tituloProyectosPage {
+    color: aquamarine;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.tituloProyectosPage a {
+    font-family: 'News Cycle',
+        sans-serif;
+    color: aquamarine;
+/*    color: var(--fondoNavA);*/
+    text-align: center;
+    text-decoration: none;
+    /*    margin: 10% 30%;*/
+}
+
+.tituloProyectosPage a:hover {
+    color: aquamarine;
+    font-weight: 600;
+
+}
+
+.iconoProyectosPage {
+    /*    width: 30%;*/
+    height: 120px;
+    background-image: url(proyectosColor.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    transform: rotate(180deg);
+
+}
+
+.imagenPralProyectPage {
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.imagenPralProyectPage img {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.textoPralProyectPage {
+    margin: 40px auto;
+    color: grey;
+    text-align: center;
+}
+
+.textoPiePag {
+    margin: 10px auto;
+    color: grey;
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.textoPralProyectPageEnlace a {
+    color: grey;
+    text-decoration: none;
+}
+.textoPralProyectPageEnlace a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+
+/*contenido principal MySimpleTemplate*/
+/*
+.article {
+    width: 100%;    
+    background-color: cornflowerblue;
+}
+*/
+
+/*
+.showcase {
+    width: 100%;
+    height: 600px;
+    margin: 10px auto;
+    padding: 5%;
+    background-color: azure;
+    background-image: url(images/lowres%20jpg%2072dpi-WVF.04.B.0330.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+
+/*
+.filaPral {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+
+    background-color: darkcyan;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+*/
+
+/*    padding: 5%;*/
+/*    Probando con display flex*/
+/*    flex-wrap: wrap;*/
+
+/*
+.col {
+
+    width: 45%;
+    height: 550px;
+    background-color: white;
+
+}
+*/
+
+
+.imagenArtPral img {
+    width: 100%;
+    /*    height: 550px;*/
+    background-image: url(images/lowres%20jpg%2072dpi-WVF.04.B.0330.jpg);
+    background: center center no-repeat;
+    background-size: cover;
+    transform: translate(0, 15%);
+    margin: auto 0;
+}
+
+.textoArtPral {
+    padding: 10px 20px;
+    text-align: justify-all;
+    overflow: hidden;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 100;
+}
+
+/*
+.filaGrill {
+    width: 100%;
+  
+    margin: 10px auto;
+    padding: 3.5%;
+    background-color: darkcyan;
+
+}
+*/
+
+/*
+.subFilaGrill {
+    
+    width: 100%;
+    background-color: white;
+        height: 450px;
+    margin: 10px auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: hidden;
+}
+*/
+
+/*
+.subFilaGrill img {
+    width: 100%;
+}
+
+
+.modH {
+    width: 300px;
+    height: 182px;
+    background-color: darkorange;
+}
+
+.modV {
+    width: 300px;
+    height: 377.5px;
+    background-color: yellow;
+}
+*/
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    overflow: hidden;
+    /*    margin: auto;*/
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footerA {
+    width: 33.3%;
+    height: 100%;
+    background-color: white;
+
+    margin: auto;
+    float: left;
+    /*    overflow: auto;*/
+    text-align: center;
+}
+
+.footerA li {
+
+    text-align: center;
+    margin: auto;
+    filter: grayscale();
+}
+
+.redes {
+    overflow: auto;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.redes {
+    overflow: auto;
+    margin-left: 90px;
+}
+
+.redes li {
+    float: left;
+    width: 20%;
+    list-style: none;
+    color: gray;
+}
+
+.redes i {
+    color: gray;
+}
+
+.contacto {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    color: gray;
+    overflow: hidden;
+}
+
+.contacto li {
+    float: none;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.copirigth {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px;
+    color: gray;
+}
+
+.copirigth a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+/*general style*/
+
+/*responsive way*/
+
+
+@media screen and (max-width: 768px) {
+
+    .respmenu a {
+        font-size: 3rem;
+
+        font-weight: 500;
+    }
+
+
+    .respmenu .fa-bars,
+    .respmenu .fa-times {
+        font-size: 80px;
+        pointer-events: none;
+    }
+
+    #menuOn a {
+        font-size: 3rem;
+    }
+
+    #columnaIzq {
+        width: 600px;
+        height: 1000px;
+        /*    background-color: white;*/
+        margin: 20px 0 0 20px;
+        float: left;
+        overflow: auto;
+    }
+
+    .logo {
+        width: 200px;
+        /*    height: 20%;*/
+        background-color: rgba(255, 255, 255, 0.3);
+        position: absolute;
+        top: 70px;
+        left: 1%;
+    }
+
+    #footer {
+
+        width: 100%;
+        background-color: gray;
+        color: white;
+        overflow: hidden;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .contacto {
+        text-align: center;
+        font-size: 0.7rem;
+        margin: 10px auto;
+        padding: 0px;
+    }
+
+    .copirigth {
+        font-size: 1rem;
+    }
+}
+
+/*responsive way*/
