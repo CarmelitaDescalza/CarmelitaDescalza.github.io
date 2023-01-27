@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<title>YagueteFilete</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    .bgimg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('images/00Yago.jpg');
+        min-height: 100%;
+
+    }
+
+    .video-contenedor {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .video-contenedor iframe,
+    .video-contenedor object,
+    .video-contenedor embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div style="margin-left: 10%" class="w3-bar-block w3-left">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">INICIO</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">PORTFOLIO</a>
+            <a href="#espectaculos" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ESPECTÁCULOS </a>
+            <a href="https://www.indeleble.es/" target="_blank" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">INDELEBLE Comunidad Artística</a>
+
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">EL BUEN Ojo Diseño gráfico</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">CONTACTO</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+        <!-- Menu icon to open sidebar -->
+        <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- Header -->
+        <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+            <h1 class="w3-jumbo"><b>Yaguete Filete</b></h1>
+            <p>Artista de circo, equilibrista, humor gestual y sobre todo, payaso. </p>
+            <!-- Imagen Principal 
+    
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">  
+   
+
+      ---->
+            <!-- Ocultamos  -->
+
+            <img src="images/00Yago.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+
+            <img src="images/00Yago.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+
+            <!-- imagen pruebas --
+        <img src="images/00Yago.jpg"  width="1000" height="1333">
+        -->
+
+            <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+                <a href="images/dosier-Humor-a-la-Cara.pdf" target="_blank"><i class="fa fa-download"></i> Dosier de "Humor a la cara"</a>
+            </button>
+        </header>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-32 w3-content" id="portfolio">
+            <!-- Ocultamos Título --
+    <h2 class="w3-text-grey">My Portfolio</h2>-->
+
+            <hr class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <img src="images/00HumorALaCaraMono.jpg" style="width:100%">
+                    <img src="images/00filete3.jpg" style="width:100%">
+                    <img src="images/00HumorALaCaraFiletePosa.JPG" style="width:100%">
+                    <img src="images/01GoOutBrohRuloCuchi.jpg" style="width:100%">
+                    <img src="images/001F-18.jpg" style="width:100%">
+                    <!--  <img src="images/001MP.JPG" style="width:100%">-->
+                    <img src="images/08HumorALaCaraFileteMonoPie2.JPG" style="width:100%">
+                    <img src="images/filete10.jpg" style="width:100%">
+
+                </div>
+
+                <div class="w3-half">
+
+                    <img src="images/02Monociclos.JPG" style="width:100%">
+                    <img src="images/02filete.jpg" style="width:100%">
+                    z<img src="images/05FileteYPipo.JPG" style="width:100%">
+
+                    <img src="images/02filete8.jpg" style="width:100%">
+
+
+                    <img src="images/08FIleteEquilibrios.JPG" style="width:100%">
+                    <img src="images/002plaza.JPG" style="width:100%">
+
+                </div>
+
+                <!-- End photo grid -->
+            </div>
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <img src="images/03Malabares.JPG" style="width:100%">
+
+                    <img src="images/03filete11.jpg" style="width:100%">
+                    <img src="images/05FileteYPelos.JPG" style="width:100%">
+
+
+
+                    <img src="images/05FreaksChimo.JPG" style="width:100%">
+
+                </div>
+
+                <div class="w3-half">
+                    <img src="images/03MalabaresPelos.JPG" style="width:100%">
+                    <img src="images/04FreaksChimoCuerda.JPG" style="width:100%">
+                    <img src="images/04FreaksChimoCuerdaSilla.JPG" style="width:100%">
+                    <img src="images/05CabaretYagoTito.JPG" style="width:100%">
+                </div>
+
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+
+        <!-- About Section ----------------------------
+  <div>
+      <P>
+          <h2> PÁGINA EN CONSTRUCCIÓN </h2>  <br> <br>
+      </P>
+      
+  </div>-->
+
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+
+            <h2>
+                <d>HISTORIA</d>
+            </h2>
+            <hr class="w3-opacity">
+            <p>La compañía Yaguete Filete fue fundada en el año 2002 por Yago García García de Viedma. Debido a su formación, experiencia e inquietudes en el mundo del circo, decidió aventurarse en la producción de espectáculos propios, centrándose en el humor como herramienta fundamental de su trabajo.
+            </p>
+
+
+            <!-- My Skills -->
+            <!--   
+    <h3 class="w3-padding-16">Habilidades</h3>
+    <p class="w3-wide">Payaso</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Equilibrios</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Malabares</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">75%</div>
+    </div><br>
+
+   
+   
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1000+</span><br>
+        Clientes
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Proyectos hechos
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">500+</span><br>
+        Clientes contentos
+      </div>
+      
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10000+</span><br>
+        Público feliz
+      </div>
+    </div>
+    
+    
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>-->
+
+            <!-- Espectáculos -->
+            <div id="espectaculos">
+                <h2 class="w3-padding-24">
+                    <d>ESPECTÁCULOS</d>
+                </h2>
+
+                <div>
+
+                    <a href="https://www.indeleble.es/companias/yaguete-filete/humor-a-la-cara/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>HUMOR A LA CARA</b> </h4>
+                    </a>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/yaguete-filete/humor-a-la-cara/"><img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right">Para todos los públicos</span> Sala y calle. 60 minutos.</p>
+                    <p> <br> Un espectáculo lleno de tonterías y payasadas para los más pequeños, y humor, con ironía y sarcasmo para los más mayores <br><br></p><br>
+
+                    <!--
+        <video playsinline autoplay muted loop  >
+        <source src="https://youtu.be/3LGRJYwSQXM" type="video/mp4" />
+        </video>-->
+                    <div class="video-contenedor" style="text-align: center;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oM3MAq6cx1U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/yaguete-filete/il-coccinero-2/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>FIRE FOX</b> </h4>
+                    </a>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <img src="images/091FiletePablo.JPG" alt="Humor a la cara" class="w3-left w3-margin-right" style="width:80px">
+                    <p><span class="w3-large w3-text-black w3-margin-right">Para todos los públicos</span> Sala y calle. 60 minutos.</p>
+                    <p><br>Un espectáculo en construcción</p><br>
+
+                </div>
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/yaguete-filete/il-coccinero-2/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>IL COCCINERO</b> </h4>
+                    </a>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/yaguete-filete/il-coccinero-2/" target="_blank"><img src="images/IL_COCCINEROCartel.jpg" alt="Il Coccinero" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right">Adultos</span> Sala. 60 minutos.</p>
+                    <p>Un cocinero, un pollo y mucha imaginación. 'Il coccinero' es un espectáculo que sabe a clown, que posee el aroma del teatro gestual y la mímica, con gratinado de bufón y que suena a los cómicos gruñidos del gramelot.</p><br> <br><br>
+
+                    <div class="video-contenedor" style="text-align: center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GZgtQv891H8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/indeleble/prejudicecircus/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>PREJUDICE CIRCUS</b> Freak Show </h4>
+                    </a>
+                    <p></p>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/indeleble/prejudicecircus/" target="_blank"><img src="images/FreakCartel.jpg" alt="Il Coccinero" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right"><br>Para todos los públicos</span> Sala. 60 minutos.</p>
+                    <p>Hace 100 años, allá por los años 20, en las barracas de los circos, existían las conocidas exhibiciones de monstruos...</p><br> <br><br>
+
+                    <div class="video-contenedor" style="text-align: center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/o9gQy4ZZYE0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/indeleble/pequeno-gran-cabaret-2/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>PEQUEÑO GRAN CABARET</b></h4>
+                    </a>
+                    <p></p>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/indeleble/pequeno-gran-cabaret-2/" target="_blank"><img src="images/CabaretTodos.JPG" alt="Il Coccinero" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right">Para todos los públicos</span> Sala. 60 minutos.</p>
+                    <p>Un espectáculo de Circo, donde los malabares, los equilibrios, la magia y la danza están presentes. Todo acompañado con mucho humor para el goce y disfrute de todos los públicos. <br><br>
+                    <div class="video-contenedor" style="text-align: center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CqJLrqrLQPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/fuera-de-lugar/go-out-brothers/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>GO OUT BROTHERS</b></h4>
+                    </a>
+                    <p></p>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/fuera-de-lugar/go-out-brothers/" target="_blank"><img src="images/cartel_go_out.jpg" alt="Il Coccinero" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right">Para todos los públicos</span> Sala. 60 minutos.</p>
+                    <p>Sus excéntricos protagonistas son hijos de una familia del mundo del circo.
+
+                        Juntos harán gala de su principal característica, “la puntualidad”. Al iniciar el show, se darán cuenta que todavía quedan cinco minutos para comenzar…</p><br><br>
+
+                    <div class="video-contenedor" style="text-align: center">
+                        <iframe src="https://player.vimeo.com/video/118579585" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/118579585">GO OUT BROTHERS / minitrailer</a> from <a href="https://vimeo.com/mueveestudio">Muevee Studio / Photo and Cinema</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    </div>
+
+                </div>
+
+
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/fuera-de-lugar/entre-dos-abrazos/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>ENTRE DOS ABRAZOS</b></h4>
+                    </a>
+                    <p></p>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/fuera-de-lugar/entre-dos-abrazos/" target="_blank"><img src="images/095Entre2AbrazosCartel.jpg" alt="Il Coccinero" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right">Para todos los públicos</span> Sala. 60 minutos.</p>
+                    <p>Las desventuras de la vida se ven tornadas en grandes aventuras del momento. <br>
+                        El tema es representado grotescamente y es llevado a la caricatura extrema para aproximar al público familiar a estas grandes cuestiones de la vida desde la amabilidad y la catarsis del humor</p><br> <br><br>
+
+                    <div class="video-contenedor" style="text-align: center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5uxFC2N947w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p> <br> </p>
+                </div>
+
+                <div>
+                    <a href="https://www.indeleble.es/companias/indeleble/mas-payasos-que-nunca/" style="text-decoration: none " target="_blank">
+                        <h4 style="color: red; font-size: 20pt;"> <b>MÁS PAYASOS QUE NUNCA</b></h4>
+                    </a>
+                    <p></p>
+                    <!-- <img src="images/CARTEL%20FILETE%202018%20copia.jpg" alt="Humor a la cara" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+                    <a href="https://www.indeleble.es/companias/indeleble/mas-payasos-que-nunca/" target="_blank"><img src="images/MasPayasosQueNunca0.jpg" alt="Más payasos que nunca" class="w3-left w3-margin-right" style="width:80px"></a>
+                    <p><span class="w3-large w3-text-black w3-margin-right">Para todos los públicos</span> Sala. 60 minutos.</p>
+                    <p>¿Hay que dejar de hacer el payaso para hacerse mayor? <br>
+                        Un homenaje al teatro de calle, a lo más puro y primario de uno mismo y de estos excelentes artistas que cumplen varias décadas de profesión dedicados a lo que más les gusta, la catarsis del humor, ser payasos.</p><br> <br><br>
+
+                    <div class="video-contenedor" style="text-align: center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5uxFC2N947w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- Grid for pricing tables 
+    <h3 class="w3-padding-16">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>-->
+        <!-- End Grid/Pricing tables -->
+        <!-- </div> -->
+
+        <!-- End About Section ------------------------------- -->
+
+
+        <!-- Contact Section -->
+        <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+
+            <h2>Contacto</h2>
+            <hr class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Navalafuente</p>
+                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 630919510 </p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: yaguetefilete@hotmail.com</p>
+            </div>
+
+            <!-- Image of location/map --
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">-->
+
+            <!--
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form> -->
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+            <a href="https://www.facebook.com/yago.garcia.372?tn-str=*F" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/yaguete.filete/?hl=es" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <!-- Ocultar 
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>-->
+            <p class="w3-medium">Gracias a <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a> y a <a href="http://www.alalpha.es">alalpha tech</a></p>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+    <script>
+        // Open and close sidebar
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body></html>
